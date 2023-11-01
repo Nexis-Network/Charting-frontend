@@ -1,0 +1,48 @@
+.side_bar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: var(--red);
+    width: 75px;
+    height:100vh;
+    padding: 0 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.daily-winner a {
+    line-height: 1;
+}
+.daily-winner img {
+    border-radius: 8px;
+}
+
+.social-side-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    color: var(--white);
+}
+
+.social-side-links a{
+    color: var(--white);
+    transition: color .2s;
+}
+
+.social-side-links a:hover{
+    color: var(--black);
+}
+
+.side-nav-door {
+    font-size: 20px;
+    color: var(--grayish-text);
+}
+
+ 
+@media screen and (max-width:992px) {
+    .side_bar {
+        display: none;
+    }
+}
