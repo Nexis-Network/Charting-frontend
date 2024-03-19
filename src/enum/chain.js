@@ -4,7 +4,7 @@ import chainEth from "../img/chain/eth.png";
 import chainPolygon from "../img/chain/polygon.png";
 import chainSolana from "../img/chain/solana.png";
 import chainTron from "../img/chain/tron.png";
-import chainXzo from "../img/chain/xzo.png";
+import chainNzt from "../img/chain/nzt.png";
 
 import chartAvalanche from "../img/charts/pangolin.png";
 import chartBsc from "../img/charts/poocoin.png";
@@ -12,7 +12,7 @@ import chartEth from "../img/charts/dextools.png";
 import chartPolygon from "../img/charts/dextools.png";
 import chartSolana from "../img/charts/solape.png";
 import chartTron from "../img/charts/justswap.png";
-import chartXzo from "../img/charts/xzoswap.png";
+import chartNzt from "../img/charts/nztswap.png";
 
 import dexAvalanche from "../img/dex/pangolin.png";
 import dexBsc from "../img/dex/pancakeswap.png";
@@ -20,7 +20,7 @@ import dexEth from "../img/dex/uniswap.png";
 import dexPolygon from "../img/dex/quickswap.png";
 import dexSolana from "../img/dex/raydium.png";
 import dexTron from "../img/dex/justswap.png";
-import dexXzo from "../img/dex/xzoswap.png";
+import dexNzt from "../img/dex/nztswap.png";
 
 import explorerAvalanche from "../img/explorer/avax_explorer.png";
 import explorerBsc from "../img/explorer/bscscan.png";
@@ -28,19 +28,19 @@ import explorerEth from "../img/explorer/etherscan.png";
 import explorerPolygon from "../img/explorer/polygonscan.png";
 import explorerSolana from "../img/explorer/solana.png";
 import explorerTron from "../img/explorer/tronscan.png";
-import explorerXzo from "../img/explorer/exzoscan.svg";
+import explorerNzt from "../img/explorer/nexscan.svg";
 
 
 const EnumChainInfos = {
-    XZO: {
+    NZT: {
         id: 1229,
-        "dex": "https://dex.exzo.network/swap?outputCurrency=$TOKEN$",
+        "dex": "https://dex.nexis.network/swap?outputCurrency=$TOKEN$",
         "chart": "",
-        "explorer": "https://evm.exzoscan.io/token/$TOKEN$",
-        "dex_img": dexXzo,
-        "chart_img": chartXzo,
-        "explorer_img": explorerXzo,
-        "chain_img": chainXzo
+        "explorer": "https://evm.nexscan.io/token/$TOKEN$",
+        "dex_img": dexNzt,
+        "chart_img": chartNzt,
+        "explorer_img": explorerNzt,
+        "chain_img": chainNzt
     },
     BSC: {
         id: 56,

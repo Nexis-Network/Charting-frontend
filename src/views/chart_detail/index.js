@@ -72,15 +72,15 @@ const TokenChart = () => {
                                     </div>
                                 </div>
                                 <div className="second-row"> 
-                                    <ChartTag token_address={token.contract} token_chain={'xzo'} />
+                                    <ChartTag token_address={token.contract} token_chain={'nzt'} />
                                     <ChartLinks 
                                     btn1_text="Trade" 
                                     website={token.website}
                                     telegram={token.telegram}  
-                                    token_chain={'xzo'}  
+                                    token_chain={'nzt'}  
                                     token_contract={token.contract}
                                     />
-                                    <ChtrList symbol={token.symbol} address={token.contract} chain={'xzo'} />      
+                                    <ChtrList symbol={token.symbol} address={token.contract} chain={'nzt'} />      
                                 </div>
                                 <div className="third-row mobile-only">
                                     <Search />
